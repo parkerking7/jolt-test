@@ -7,9 +7,9 @@ We welcome you and thank you for taking the time to do this coding assessment. P
 * The purpose of this assessment is to help us evaluate your application development coding skills.
 * You will not be graded on your UX/UI or visual design skills
 * You are allowed to use any non-human resource. Ex:
-  * **Allowed:** StackOverflow, Google, reference code on Github, etc. 
+  * **Allowed:** StackOverflow, Google, reference code on Github, etc.
   * **Not Allowed:** Chatting or calling your old boss, using the code of your friend who already took this assessment
- * You must use the skeleton project and existing UI as the start for your code 
+ * You must use the skeleton project and existing UI as the start for your code
  * You may use external projects and frameworks or copy and paste examples under two conditions:
    * Make sure to commit any changes you make immediately before and after including the external code and make note of it in the commit message when you add it.
    * Make sure you still provide us with enough of your own code to get a feel for how you think
@@ -19,7 +19,7 @@ We welcome you and thank you for taking the time to do this coding assessment. P
 * This is a git repo. Plesse try to commit often and add messages to your commits so we can more easily review your work.
 * We added more steps than we expect you to finish. Don't be overwhelmed and get as far as you can in the time you have. We will take into account the time amount of time you took, the amount of experience you have in ReactJS, etc.
 * **The webpack server and API server for the project can be run via `npm start`**.
-  
+
 ## Assessment Steps:https://mail.google.com/mail/u/0/#inbox
 
 ### PART I - Basic Data Retrieval
@@ -43,13 +43,12 @@ We welcome you and thank you for taking the time to do this coding assessment. P
 ### PART IV - Favoriting Cards
 
 9. Add a *favorite* button to each card and a favorite count to the upper right hand corner of the screen. Clicking the button toggles favorited button state and increments/decrements the favorite count appropriately.
-10. Make the favorite state save each favorite to the json-server by POSTing to the `http://localhost:3008/favoritepeople` endpoint. Note that the json-server is schema-less so we expect you to invent your own schema for the favorite records. Load favorited documents on the initial page render in order to appropriately render the favorite counter and button states on page load.
+10. Make the favorite state save each favorite to the json-server by POSTing to the `http://localhost:3008/peoplefavorites` endpoint. Note that the json-server is schema-less so we expect you to invent your own schema for the favorite records. Load favorited documents on the initial page render in order to appropriately render the favorite counter and button states on page load.
 
 ### PART V - Drag and Drop
 
 11. When a user clicks on the favorite count, route to a page that displays all the favorite cards, miniaturized using css. Add a back button to go back to the main list.
-12. Add drag-and-drop functionality in order to sort the favorites in order. Display the order on above the card. Save the order to the `http://localhost:3008/favoritepeople` endpoint in order to persist it and load the saved favorite order from the server.
+12. Add drag-and-drop functionality in order to sort the favorites in order. Display the order on above the card. Save the order to the `http://localhost:3008/peoplefavorites` endpoint in order to persist it and load the saved favorite order from the server.
 13. Update your code so that when a new card is favorited or unfavorited, that change is persisted to the server. New, unsorted favorites should be added to the end of the favorite list in order of when they were favorited (unless changed by sorting).
 
 # May the force be with you.
- 
