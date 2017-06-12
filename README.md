@@ -14,21 +14,21 @@ We welcome you and thank you for taking the time to do this coding assessment. P
    * Make sure to commit any changes you make immediately before and after including the external code and make note of it in the commit message when you add it.
    * Make sure you still provide us with enough of your own code to get a feel for how you think
 * Check out the API index at http://localhost:3008. Note that the api uses json-server: https://github.com/typicode/json-server
-* Don't be overwhelmed, supposed to be more steps than you are likely to complete in your given time frame. Try to do them in order, but you might be able to skip steps if you get stuck.
+* Don't be overwhelmed, supposed to be more steps than you are likely to complete in your given time frame. Try to do them in order, but you can skip steps if you get stuck. If you skip a feature, put in the notes as to why you skipped it.
 * Put the time that you start and end on the first line of notes.md. Also, add any grading advice, disclaimers, brags, feedback, or anomalies you encounter along your way.
 * This is a git repo. Plesse try to commit often and add messages to your commits so we can more easily review your work.
 * We added more steps than we expect you to finish. Don't be overwhelmed and get as far as you can in the time you have. We will take into account the time amount of time you took, the amount of experience you have in ReactJS, etc.
 * **The webpack server and API server for the project can be run via `npm start`**.
 
-## Assessment Steps:https://mail.google.com/mail/u/0/#inbox
+## Assessment Steps:
 
 ### PART I - Basic Data Retrieval
 
  1. Modify the *Card* component to take props for the person's name, image, bithday, and home planet.
  2. GET the list of Star Wards people from `http://localhost:3008/people` and render a *Card* component for each of the people, using people data from the API as props.
- 3. Use `http://localhost:3008/planets` to get the name of each person's home world. (Note that the embed functionality of json-server has been disabled so that this is necessary ).
+ 3. Use `http://localhost:3008/planets` to get the name of each person's home world. (Note that the embed functionality of json-server has been disabled so that this is necessary).
 
-### PART II - Controlled Data Fetching
+### PART II - Controlled Data Fetching (This is an important step, please don't skip it)
 
  4. Paginate the list of cards, loading no more than 10 at a time. Do server-side pagination (NOT client-side): https://github.com/typicode/json-server#paginate.
  5. Make the provided `SearchBar` component work as a filter on the people cards, acting on any of their attributes, filtering at the server level and still paginating the results(ref: https://github.com/typicode/json-server#full-text-search).
